@@ -19,7 +19,7 @@
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_POST, true);
 
-//Other Content
+//Other Content...Use your own variables, including phone numbers.
     curl_setopt($curl, CURLOPT_POSTFIELDS, "username=sandbox&to=%2B254743105448,%2B254701586780&message=Hello%20World!&from=40370");
 
 
